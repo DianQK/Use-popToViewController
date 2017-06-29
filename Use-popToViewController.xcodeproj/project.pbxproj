@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		268602561F0528EF0029F3B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268602551F0528EF0029F3B0 /* AppDelegate.swift */; };
+		268602581F0528EF0029F3B0 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268602571F0528EF0029F3B0 /* RootViewController.swift */; };
+		2686025D1F0528EF0029F3B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2686025C1F0528EF0029F3B0 /* Assets.xcassets */; };
+		268602601F0528EF0029F3B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2686025E1F0528EF0029F3B0 /* LaunchScreen.storyboard */; };
+		268602681F052A1A0029F3B0 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268602671F052A1A0029F3B0 /* BaseViewController.swift */; };
+		2686026A1F052F370029F3B0 /* VerifyCurrentMobileNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268602691F052F370029F3B0 /* VerifyCurrentMobileNumberViewController.swift */; };
+		2686026C1F052F4B0029F3B0 /* SetNewMobileNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2686026B1F052F4B0029F3B0 /* SetNewMobileNumberViewController.swift */; };
+		C9A03FDD69F37C564C2322F2 /* Pods_Use_popToViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63BE7E0A5B9CB298163C10B9 /* Pods_Use_popToViewController.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		268602521F0528EF0029F3B0 /* Use-popToViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Use-popToViewController.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		268602551F0528EF0029F3B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		268602571F0528EF0029F3B0 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		2686025C1F0528EF0029F3B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2686025F1F0528EF0029F3B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		268602611F0528EF0029F3B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		268602671F052A1A0029F3B0 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		268602691F052F370029F3B0 /* VerifyCurrentMobileNumberViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerifyCurrentMobileNumberViewController.swift; sourceTree = "<group>"; };
+		2686026B1F052F4B0029F3B0 /* SetNewMobileNumberViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetNewMobileNumberViewController.swift; sourceTree = "<group>"; };
+		63BE7E0A5B9CB298163C10B9 /* Pods_Use_popToViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Use_popToViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77888FDFFEEED7D3AE153F44 /* Pods-Use-popToViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Use-popToViewController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Use-popToViewController/Pods-Use-popToViewController.debug.xcconfig"; sourceTree = "<group>"; };
+		E0DAD67F998D9F355480341B /* Pods-Use-popToViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Use-popToViewController.release.xcconfig"; path = "Pods/Target Support Files/Pods-Use-popToViewController/Pods-Use-popToViewController.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2686024F1F0528EF0029F3B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9A03FDD69F37C564C2322F2 /* Pods_Use_popToViewController.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		268602491F0528EF0029F3B0 = {
+			isa = PBXGroup;
+			children = (
+				268602541F0528EF0029F3B0 /* Use-popToViewController */,
+				268602531F0528EF0029F3B0 /* Products */,
+				F058CA0C11B4037A08FDB8B5 /* Pods */,
+				27EB21F093B8254CA7103F56 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		268602531F0528EF0029F3B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				268602521F0528EF0029F3B0 /* Use-popToViewController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		268602541F0528EF0029F3B0 /* Use-popToViewController */ = {
+			isa = PBXGroup;
+			children = (
+				268602551F0528EF0029F3B0 /* AppDelegate.swift */,
+				268602571F0528EF0029F3B0 /* RootViewController.swift */,
+				2686025C1F0528EF0029F3B0 /* Assets.xcassets */,
+				2686025E1F0528EF0029F3B0 /* LaunchScreen.storyboard */,
+				268602611F0528EF0029F3B0 /* Info.plist */,
+				268602671F052A1A0029F3B0 /* BaseViewController.swift */,
+				268602691F052F370029F3B0 /* VerifyCurrentMobileNumberViewController.swift */,
+				2686026B1F052F4B0029F3B0 /* SetNewMobileNumberViewController.swift */,
+			);
+			path = "Use-popToViewController";
+			sourceTree = "<group>";
+		};
+		27EB21F093B8254CA7103F56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63BE7E0A5B9CB298163C10B9 /* Pods_Use_popToViewController.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F058CA0C11B4037A08FDB8B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				77888FDFFEEED7D3AE153F44 /* Pods-Use-popToViewController.debug.xcconfig */,
+				E0DAD67F998D9F355480341B /* Pods-Use-popToViewController.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		268602511F0528EF0029F3B0 /* Use-popToViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 268602641F0528EF0029F3B0 /* Build configuration list for PBXNativeTarget "Use-popToViewController" */;
+			buildPhases = (
+				2E50BED34322AFF19D9A1E9F /* [CP] Check Pods Manifest.lock */,
+				2686024E1F0528EF0029F3B0 /* Sources */,
+				2686024F1F0528EF0029F3B0 /* Frameworks */,
+				268602501F0528EF0029F3B0 /* Resources */,
+				51D9692CB939E6D1DFF13E44 /* [CP] Embed Pods Frameworks */,
+				7371AF938BD78C80AA5A4E80 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Use-popToViewController";
+			productName = "Use-popToViewController";
+			productReference = 268602521F0528EF0029F3B0 /* Use-popToViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2686024A1F0528EF0029F3B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = DianQK;
+				TargetAttributes = {
+					268602511F0528EF0029F3B0 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = HY634B3FW2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2686024D1F0528EF0029F3B0 /* Build configuration list for PBXProject "Use-popToViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 268602491F0528EF0029F3B0;
+			productRefGroup = 268602531F0528EF0029F3B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				268602511F0528EF0029F3B0 /* Use-popToViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		268602501F0528EF0029F3B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				268602601F0528EF0029F3B0 /* LaunchScreen.storyboard in Resources */,
+				2686025D1F0528EF0029F3B0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E50BED34322AFF19D9A1E9F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		51D9692CB939E6D1DFF13E44 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Use-popToViewController/Pods-Use-popToViewController-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7371AF938BD78C80AA5A4E80 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Use-popToViewController/Pods-Use-popToViewController-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2686024E1F0528EF0029F3B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2686026A1F052F370029F3B0 /* VerifyCurrentMobileNumberViewController.swift in Sources */,
+				268602581F0528EF0029F3B0 /* RootViewController.swift in Sources */,
+				268602561F0528EF0029F3B0 /* AppDelegate.swift in Sources */,
+				268602681F052A1A0029F3B0 /* BaseViewController.swift in Sources */,
+				2686026C1F052F4B0029F3B0 /* SetNewMobileNumberViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2686025E1F0528EF0029F3B0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2686025F1F0528EF0029F3B0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		268602621F0528EF0029F3B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		268602631F0528EF0029F3B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		268602651F0528EF0029F3B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77888FDFFEEED7D3AE153F44 /* Pods-Use-popToViewController.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HY634B3FW2;
+				INFOPLIST_FILE = "Use-popToViewController/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.dianqk.Use-popToViewController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		268602661F0528EF0029F3B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0DAD67F998D9F355480341B /* Pods-Use-popToViewController.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HY634B3FW2;
+				INFOPLIST_FILE = "Use-popToViewController/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.dianqk.Use-popToViewController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2686024D1F0528EF0029F3B0 /* Build configuration list for PBXProject "Use-popToViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				268602621F0528EF0029F3B0 /* Debug */,
+				268602631F0528EF0029F3B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		268602641F0528EF0029F3B0 /* Build configuration list for PBXNativeTarget "Use-popToViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				268602651F0528EF0029F3B0 /* Debug */,
+				268602661F0528EF0029F3B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2686024A1F0528EF0029F3B0 /* Project object */;
+}
